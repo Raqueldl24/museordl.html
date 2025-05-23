@@ -12,11 +12,9 @@
         <img id="suelo" src="suelos.jpg">
         <img id="pared" src="paredes.jpg">
         <img id="viga" src="vigas.jpg">
-        <img id="fondos" src="fondo.jpg">
-       
+        
       </a-assets>
-   
-    
+      
      <a-entity> 
     
       <a-box position="0 0 -6" rotation="0 0 0" width="5" height="2.5" depth="0.1" src="#pared"></a-box>
@@ -32,7 +30,8 @@
       <a-box position="2.5 0 -3.25" rotation="0 90 0" width="0.5" height="2.5" depth="0.1" src="#pared"></a-box>
       <a-box position="0 1.25 -4.5" rotation="-90 0 0" width="5" height="3" depth="0.1" src="#viga"></a-box>
     </a-entity> 
-     <a-sky scr="#fondos"></a-sky> 
+      <a-sky src="fondo.jpg" rotation="0 -90 0"></a-sky>    
+      <a-sky scr="#ECECEC"></a-sky> 
     </a-scene>
   </body>
   </html>
