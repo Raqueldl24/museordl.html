@@ -13,11 +13,13 @@
         <img id="pared" src="paredes.jpg">
         <img id="viga" src="vigas.jpg">
         <img id="leo" src="leonardo.jpg">
-        
       </a-assets>
-      
+      <a-assets>
+        <a-asset-item id="tinkers" scr="tinker.obj"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="#tinkers" position="0 0 -5"></a-entity>
+
      <a-entity> 
-    
       <a-box position="0 0 -6" rotation="0 0 0" width="5" height="2.5" depth="0.1" src="#pared"></a-box>
       <a-box position="0 0 -5.9" rotation="0 0 0" width="3" height="1.5" depth="0.1" src="#leo"></a-box>
       <a-box position="0 -1.25 -4.5" rotation="-90 0 0" width="5" height="3" depth="0.1" src="#suelo"></a-box>
