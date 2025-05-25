@@ -19,6 +19,10 @@
         <img id="corr" src="correa.jpg">
         <img id="rue" src="ruedasf.jpg">
         <img id="cad" src="cadena.jpg">
+        <img id="tor" src="tornillotuerca_3d_lozanoysoria.jpg">
+        <img id="bie" src="biela.jpg">
+        <img id="lev" src="leva.jpg">
+        <img id="crema" src="cremallera.jpg">
 
       <a-asset-item id="mesa" src="mesa_circular.glb"></a-asset-item>
       <a-asset-item id="planta" src="a_bizarre_alien_plant.glb"></a-asset-item>
@@ -59,16 +63,16 @@
       
     <a-box position="1 -0.5 -3.75" width="1" height="1.5" depth="1" animation="property: rotation; to: 0 360 0; dur: 20000; loop: true"  src="#panel">
        <!-- Caja frontal -->
-      <a-box position="0 0.3 0.52" width="0.75" height="0.5" depth="0.01" color="red"></a-box>
+      <a-box position="0 0.3 0.52" width="0.75" height="0.5" depth="0.01" src="#tor"></a-box>
 
     <!-- Caja trasera -->
-      <a-box position="0 0.3 -0.52" width="0.75" height="0.5" depth="0.01" color="blue"></a-box>
+      <a-box position="0 0.3 -0.52" width="0.75" height="0.5" depth="0.01" src="#bie"></a-box>
 
     <!-- Caja izquierda -->
-      <a-box position="-0.52 0.3 0" rotation="0 90 0" width="0.75" height="0.5" depth="0.01" color="green"></a-box>
+      <a-box position="-0.52 0.3 0" rotation="0 90 0" width="0.75" height="0.5" depth="0.01" src="#lev"></a-box>
 
     <!-- Caja derecha -->
-      <a-box position="0.52 0.3 0"  rotation="0 90 0" width="0.75" height="0.5" depth="0.01" color="yellow"></a-box>
+      <a-box position="0.52 0.3 0"  rotation="0 90 0" width="0.75" height="0.5" depth="0.01" src="#crema"></a-box>
     </a-box>
      
     <a-box position="2.5 0 -5.75" rotation="0 90 0" width="0.5" height="2.5" depth="0.1" src="#pared"></a-box>
